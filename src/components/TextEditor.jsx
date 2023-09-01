@@ -1,5 +1,7 @@
 import React, {useState} from 'react'
 
+//IGNORE THESE  experimental components
+
 const TextEditor = () => {
   const [Text, setText] = useState("")
 

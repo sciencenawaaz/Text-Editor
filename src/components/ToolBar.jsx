@@ -1,5 +1,7 @@
 import React from 'react'
 
+//IGNORE THESE  experimental components
+
 const ToolBar = (props) => {
     function handleBold() {
         
