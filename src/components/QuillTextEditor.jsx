@@ -32,7 +32,7 @@ const QuillTextEditor = () => {
 
         return <div key={section.key} className=' flex flex-col content-around pb-24 mx-auto min-h-screen lg: max-h-96 md:h-1/6 md:mb-12 lg:mb-20 lg:w-1/3'>
           <div className='h-full lg:h-full' >
-            <p  className='text-xl border rounded-t m-0 overflow-hidden truncate bg-slate-100'>Section </p>
+            <p  className='text-xl border rounded-t m-0 overflow-hidden truncate bg-slate-100'>Section {section.key} </p>
             <ReactQuill
             className=' h-full lg:h-full'
             key={section.key}
